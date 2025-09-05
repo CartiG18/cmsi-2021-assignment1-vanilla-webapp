@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="grid-container">
+      <header>
+        <h1 class="iceberg-regular title">Compound Interest Calculator</h1>
+      </header>
+
+      <main>
+        <form id="interest-form">
+          <label>
+            Principal ($):
+            <input type="number" id="principal" />
+          </label>
+
+          <label>
+            Interest Rate (%):
+            <input type="number" id="interest" step="0.01" />
+          </label>
+
+          <label>
+            Compounds/Year:
+            <select id="times">
+              <option value="1">1</option>
+              <option value="4">4</option>
+              <option value="12">12</option>
+            </select>
+          </label>
+
+          <label>
+            Years:
+            <input type="range" id="years" min="1" max="50" value="10" />
+            <span id="years-value">10</span>
+          </label>
+
+          <button type="button" id="calculate-btn">Calculate</button>
+        </form>
+        <div class="results-container">
+          <div id="results">
+            <p>Total Earned: $<span id="earned">0.00</span></p>
+            <p>Final Balance: $<span id="total">0.00</span></p>
+          </div>
+          <img
+            src="https://media.geeksforgeeks.org/wp-content/uploads/20241217150939604397/Compound.webp"
+            alt="Compound Interest"
+            width="200"
+          />
+        </div>
+      </main>
+
+      <footer>
+        <p>
+          <a
+            href="https://codesandbox.io/p/sandbox/cmsi-2021-assignment1-vanilla-webapp-qczg7s"
+            >View on CodeSandbox</a
+          >
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
