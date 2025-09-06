@@ -1,15 +1,15 @@
 # Compound Interest Calculator
 
 ## 📊 Live Demo
-**Deployed Application:** [https://yourusername.github.io/compound-interest-calculator](https://yourusername.github.io/compound-interest-calculator)
+**Deployed Application:** https://codesandbox.io/p/sandbox/cmsi-2021-assignment1-vanilla-webapp-qczg7s
 
 ## 👨‍💻 Project Information
-- **Student Name:** [Your Full Name]
-- **Student ID:** [Your Student ID]
+- **Student Name:** Carter Gladden
+- **Student ID:** 943935578
 - **Course:** CMSI 2021 - Web Application Development
 - **Assignment:** Assignment 1 - Vanilla Web Application
-- **Date:** [Assignment Date]
-- **Professor:** [Professor Name]
+- **Date:** 
+- **Professor:** Douglas
 
 ## 📝 Project Description
 This is a **Compound Interest Calculator** web application built using vanilla HTML, CSS, and JavaScript. The application allows users to calculate the compound interest earned on an investment over time, providing an intuitive interface for financial planning and education.
@@ -52,7 +52,7 @@ compound-interest-calculator/
 ├── styles.css          # CSS styling and layout
 ├── script.js           # JavaScript functionality
 ├── about.md            # This documentation file
-└── README.md           # GitHub repository README
+└── AI_Review.md        # GitHub repository README
 ```
 
 ## 🧮 Mathematical Formula
@@ -100,27 +100,15 @@ To run this application locally:
 - **Professional Styling**: Modern UI with gradient backgrounds and hover effects
 - **Error Handling**: User-friendly alerts for invalid inputs
 
-## 📱 Browser Compatibility
-- Chrome (recommended)
-- Firefox
-- Safari
-- Edge
-- Mobile browsers (iOS Safari, Chrome Mobile)
-
 ## 🎨 Design Choices
 - **Color Scheme**: Blue gradient background for a professional, financial application feel
 - **Typography**: Iceberg font for headings, clean sans-serif for body text
 - **Layout**: Centered form with clear visual hierarchy
 - **Interactions**: Smooth hover effects and button animations for better user experience
 
-## 📚 References
-- [MDN Web Docs - Compound Interest Formula](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
-- [CSS Grid Layout Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
-- [JavaScript Event Handling](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
-
 ## 📧 Contact
-- **Email:** [your.email@university.edu]
-- **GitHub:** [https://github.com/yourusername](https://github.com/yourusername)
+- **Email:** cgladden@lion.lmu.edu
+- **GitHub:** https://github.com/CartiG18
 
 ---
-*This project was developed as part of CMSI 2021 coursework at [University Name], demonstrating fundamental web development skills and mathematical application implementation.*
+*This project was developed as part of CMSI 2021 coursework at Loyola Marymount University.*
