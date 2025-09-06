@@ -1,10 +1,10 @@
-# AI Review
-## Info
+# AI Review 🤖
+## ℹ️ Info
 - **Was generative AI used?:** Yes
 - **Provider(s):** Anthropic Claude, Open AI ChatGPT
 - **Model(s):** Claude 4.0, ChatGPT 5.0
 
-## My Experience
+## 👏 My Experience
 - How it was used --> I mainly used ChatGPT and Claude for basic syntactical things I haven't learned about yet and for how to make very specific style adjustments in style.css. For example, I asked ChatGPT how I can implement a Google font for the header. It showed me how to use a font URL inside my index.html file.
 - Another thing I learned while using AI is that you can include multiple names in a line like this:
 - ```
